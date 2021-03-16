@@ -20,10 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'd648@e3kj21la5_ahf%3i%e-6s84!#&@-ik4i!ffr!!ee&xj6t'
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'shop-at-web.herokuapp.com']
 
@@ -180,5 +180,5 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-if os.getcwd() == '/app':
-    DEBUG = False
+#if os.getcwd() == '/app':
+   # DEBUG = False
