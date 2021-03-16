@@ -28,5 +28,3 @@
 * 1 - cd frontend
 * 2 - npm install
 
-# User Interface
-file:///F:/Screenshots/Screenshot%20(3514).png
