@@ -21,7 +21,7 @@
 * 3 - Create virtual environment: virtualenv myenv
 * 4 - cd myenv
 * 5 - myenv\scripts\activate
-* 6 - pip install requirements.txt
+* 6 - pip install -r requirements.txt
 * 7 - python manage.py runserver
 
 # Install react modules
